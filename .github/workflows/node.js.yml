@@ -7,6 +7,9 @@ on:
   pull_request:
     branches:
       - master
+  commit:
+    branches:
+      - master
 
 jobs:
     build:
